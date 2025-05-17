@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(156,184,235);
+    margin: 10px;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    align-items:flex-start;
+}
+
+.tablero{
+    /* width: 330px;
+    overflow: auto;
+    padding-right: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.tablero div{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    float: left;
+    color: aliceblue;
+    background-color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+
+}
+
+    
+
+.menu{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: 	rgb(110,154,246)	;
+}
+
+.menu div{
+    font-size: 20px;
+}
+
+ .menu span {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;  /* Elimina el margen inferior */
+    padding-bottom: 0;
+    
+}
+
